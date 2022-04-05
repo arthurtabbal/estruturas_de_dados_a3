@@ -81,7 +81,7 @@ public class EstruturasDeDados {
 
         // e para a fila
         for(int i = 0; i < 5; i++) {
-            fila.addFirst(pilha.pollFirst());
+            fila.addFirst(pilha.pop());
         }
         
         // Imprimindo na tela os elementos da fila
